@@ -39,7 +39,7 @@ self.net.setPreferableTarget(cv2.dnn.DNN_TARGET_GPU)
 # Future Works
 - Look into Compression techniques such as Pruning and Quantization. Sparse Quantized Yolo models have a very low inference time
 - Implement [DeepSort](https://arxiv.org/pdf/1703.07402.pdf) a, CNN based metric which uses as a *Siamese Network* to account for the spatial features as well.
-
+- For more robustness code a **Kalman Filter** to predict the next position of an obstacle along with association.
 
 
 
