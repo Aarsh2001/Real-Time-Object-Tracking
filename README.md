@@ -37,7 +37,7 @@ self.net.setPreferableTarget(cv2.dnn.DNN_TARGET_GPU)
 - If the IOU matches and the classes are diffreent, the algorithm wont be able to distingiush between the objects
 
 # Future Works
-- Look into Compression techniques such as pruning and uantization. Sparse Quantized Yolo models have a very low inference time
+- Look into Compression techniques such as Pruning and Quantization. Sparse Quantized Yolo models have a very low inference time
 - Implement [DeepSort](https://arxiv.org/pdf/1703.07402.pdf) a, CNN based metric which uses as a *Siamese Network* to account for the spatial features as well.
 
 
