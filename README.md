@@ -1,5 +1,5 @@
 # Real-Time-Object-Tracking
-**Computer vision** at its core is about making an understanding through visual data.We detect obstacles, segment images, or extract relevant context from a given scene. One particular area is **Video Analysis** , which is the primary focus behind this project. The aim is to track the obstacles in each frame.
+**Video Analysis** , which is the primary focus behind this project. The aim is to track the obstacles in each frame.
 
 *The pipeline is as follows Object Detection->Object Tracking(Association)-> Output*
 
