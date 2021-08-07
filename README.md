@@ -6,13 +6,11 @@
 # Object Detection
 The tracking will lie heavily on the detection algorithm, so i have used yolov3 as the backbone with OpenCV engine(faster than darknet).
 
-https://user-images.githubusercontent.com/65212523/119885412-6dc6d180-bf4f-11eb-82b2-0a1b56afc4a5.mp4
-
 
 
 # Obstacle Tracking
 Now comes the main part of this project, the idea behind this is to associate bounding boxes from frame t-1 to t. This task has been achieved by the **Hungarian Algorithm**, which is used for association(through a metric) and ID distribution.
-<img width="817" alt="Association" src="https://user-images.githubusercontent.com/65212523/119887121-5be62e00-bf51-11eb-8957-61cad0ea7e12.png">
+<img width="600" alt="Association" src="https://user-images.githubusercontent.com/65212523/119887121-5be62e00-bf51-11eb-8957-61cad0ea7e12.png">
 
 # Metrics
 To calculate similarity between two boxes i have considered 3 metrics based off this [paper](https://arxiv.org/pdf/1709.03572.pdf)-:
